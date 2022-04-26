@@ -1,0 +1,815 @@
+@font-face {
+  font-family:  gotham;
+  src: url(../fonts/Gotham-Book.otf)
+}
+
+@font-face {
+  font-family: poppins;
+  src:  url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: poppins-reg;
+  src:  url(../fonts/Poppins-Regular.ttf);
+}
+
+h1 {
+  font-family: poppins;
+  font-size:  36px;
+  color:  black;
+  margin: 0;
+}
+
+h2, h3, h4, h5, h6, p, div {
+  font-family: gotham;
+  font-weight: lighter;
+}
+
+body {
+  margin:  0;
+}
+
+a {
+  color: #e46a25;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e46a25;
+  text-decoration: underline;
+}
+
+.container {
+  margin:  0;
+}
+.topnav {
+  width:  100%;
+  background-color: #a49e8f;
+  display: block;
+  text-align: right;
+  box-shadow: 0px 2px 15px #a49e8f;
+}
+
+.topnav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 1.5em 2em 1em 2em;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #e46a25;
+  text-decoration: none;
+}
+
+.logo-container {
+  padding:  .5em 2em;
+  float:  left;
+  max-width: 10%;
+  display: block;
+}
+
+#logo-link {
+  padding: 0;
+  display: block;
+}
+
+.nav-container {
+  display:  inline-block;
+  text-align: right;
+}
+
+.nav-logo {
+  max-height: 55px;
+  display: block;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+#home-hero {
+  min-height: 100vh;
+  background-image: url(../images/hani-hero.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 15px #a49e8f;
+}
+
+#home-cta {
+  min-height: 70vh;
+  background-image: url(../images/home-cta.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 15px #a49e8f;
+}
+
+#home-product {
+  width: 90%;
+  margin: auto;
+  text-align: right;
+  position: relative;
+  padding: none;
+}
+
+.home-product-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: left;
+  display: inline-block;
+  padding-right: 15%;
+  padding-top: 20%;
+  font-size: 18;
+  max-width: 30%;
+}
+
+.h-cta h2{
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.h-cta p{
+  margin-top: .5em;
+  padding-left: .5em;
+  color: #a49e8f;
+  line-height: 28px;
+}
+
+.background-design {
+  min-height:  100% !important;
+  min-width: 100% !important;
+  z-index: -3;
+}
+
+.home-product-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  max-width: 50%;
+  padding-left: 5rem;
+  padding-top: 14rem;
+}
+
+.home-product-photo {
+  max-width: 70%;
+  box-shadow: 5px 5px 15px #a49e8f;
+}
+
+#home-supply-chain-image {
+  height: 70vh;
+  background-image: url(../images/hani-farmers.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
+  margin-top: -4px;
+  box-shadow: 0px 5px 15px #a49e8f;
+}
+
+#home-supply-chain-image h2 {
+  font-size: 36px;
+  font-family: poppins;
+}
+.hero-container {
+  width: 90%;
+  margin: auto;
+}
+
+.cta-right {
+  text-align: left;
+  display: inline-block;
+  padding-right: 8%;
+  padding-top: 15%;
+  font-size: 28px;
+  max-width: 40%;
+}
+
+.cta-right p {
+  margin-top: .3em;
+  margin-bottom: .5em;
+}
+
+.h-cta-left {
+  text-align: left;
+  display: inline-block;
+  padding-left: 8%;
+  padding-top: 15%;
+  font-size: 28px;
+  max-width: 40%;
+}
+
+.h-cta-left p {
+  margin-top: .3em;
+  margin-bottom: .5em;
+}
+
+.shop-btn {
+  background-color: #e46a25;
+  color: white;
+  font-family: gotham;
+  font-weight: 600;
+  border-radius: 40px;
+  font-size: 24px;
+  border: none;
+  padding: .5em 1em;
+}
+
+.shop-btn:hover {
+  background-color: white;
+  text-decoration: none;
+  color:  #e46a25;
+  cursor: pointer;
+}
+
+.cta-left {
+  display: inline-block;
+  padding-left: 8%;
+  padding-top: 20%;
+  font-size: 28px;
+  max-width: 40%;
+}
+
+.supply-two-column {
+  max-width: 1200px;
+  margin: 4em auto;
+  font-size: 18px;
+  line-height: 34px;
+
+}
+
+.supply-chain-left {
+  width: 45%;
+  border-right: 2px solid #e46a25;
+  padding-right: 1em;
+  padding-left: .5em;
+  float: left;
+}
+
+.supply-chain-right {
+  width: 45%;
+  padding-left: 1em;
+  padding-right: .5em;
+  float: right;
+}
+
+.quote-text {
+  color: #a49e8f;
+}
+
+.quote-speaker {
+  text-align: right;
+  color: #a49e8f
+}
+
+.quote-name {
+  color: black;
+}
+
+#home-sustainable {
+  width: 90%;
+  margin: 6rem auto -4px auto;
+  text-align: left;
+  position: relative;
+  padding: none;
+}
+
+.home-sustainable-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  padding-left: 15%;
+  padding-top: 14%;
+  font-size: 18;
+  max-width: 30%;
+}
+
+.home-sustainable-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  max-width: 50%;
+  padding-right: 5rem;
+  padding-top: 8rem;
+}
+
+.home-sustainable-photo {
+  max-width: 70%;
+  box-shadow: 5px 5px 15px #a49e8f;
+}
+
+footer {
+  background-color: #e46a25;
+  color: white;
+  padding: 1em 5px;
+  font-family: gotham;
+  text-align: center;
+}
+
+footer a{
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.title {
+  text-align: center;
+  font-weight: lighter;
+  color: #3a7055;
+  margin-top: 4rem;
+  font-family: poppins-reg;
+}
+
+.about-heading {
+  color: #3a7055;
+}
+
+.about-container {
+  padding-top: 4%;
+  max-width: 40%;
+  padding-left: 10%;
+}
+
+.about-image {
+  padding-top:  4rem;
+  padding-right: 0rem;
+}
+
+.imported-section {
+  background-color: #3a7055;
+  max-width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  margin-top: 0 !important;
+}
+
+.imported-photo-container {
+  max-width: 48%;
+  width: 48%;
+  text-align: center;
+}
+
+.imported-photo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.imported-text-container {
+  max-width: 49%;
+}
+
+.imported-heading {
+  color: white;
+  font-weight: lighter !important;
+}
+
+.imported-paragraph {
+  color: white !important;
+  font-weight: lighter !important;
+  font-size: 18px !important;
+  max-width: 60%;
+}
+
+.solution {
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.solution p {
+  color: #a49e8f;
+  max-width: 60%;
+  margin: auto;
+}
+
+.process {
+  text-align: left;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.process-step {
+  text-align: center;
+  max-width: 32%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.process-step p {
+  max-width: 80%;
+}
+
+.process-step img {
+  width: 95%;
+}
+
+.process-heading {
+  margin-bottom: .5rem;
+}
+
+.contact-section {
+  text-align: center;
+  color: #a49e8f
+}
+
+.contact-bg {
+  width:90%;
+  margin:3em auto -4px auto;
+  z-index: -3;
+  position:absolute;
+  left:5%;
+  height: 65%;
+  bottom:10%
+}
+
+.contact-content {
+  width: 100%;
+  margin: auto;
+  position:absolute;
+  text-align: left;
+  top: 32%;
+  left: 30%;
+}
+
+.contact-footer {
+  position:absolute;
+  width:100%;
+  bottom:0;
+  left:0;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 900px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    text-align:  right;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 1em;
+  }
+  .logo-container {
+    padding-left:  .5em;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .about-container {
+    max-width: 50%;
+    padding-left: 6%;
+    padding-top: 0;
+  }
+
+  .imported-photo-container {
+    padding-top: 4%;
+  }
+
+  .imported-text-container {
+    padding-top: 4%;
+  }
+
+  .imported-heading {
+    margin-top: 0;
+  }
+
+  .imported-paragraph {
+    max-width: 80%;
+  }
+
+  .about-design {
+    opacity: 30%;
+    transition-duration: 1s;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .home-product-image {
+    text-align: center;
+    max-width: 70%;
+    padding-left: 0rem;
+    padding-top: 8rem;
+  }
+
+  .home-product-content {
+    padding-right: 8%;
+    padding-top: 14%;
+    font-size: 18px;
+    max-width: 30%;
+  }
+
+  .home-sustainable-image {
+    text-align: center;
+    max-width: 70%;
+    padding-right: 0rem;
+    padding-top: 2rem;
+  }
+
+  .home-sustainable-content {
+    padding-left: 8%;
+    padding-top: 8%;
+    font-size: 18;
+    max-width: 30%;
+  }
+
+  .about-section {
+    margin-top: 2rem !important;
+  }
+
+  .about-container {
+    position: initial;
+    max-width: 100%;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-top: 0;
+  }
+
+  .about-image {
+    position: initial;
+    margin: auto;
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .about-design {
+    display: none;
+  }
+
+  .contact-bg {
+    display: none;
+    transition-duration: 1s;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 900px) {
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+    padding-right: 1em;
+  }
+
+  .topnav.responsive a.home-link {
+    padding-top: 4em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  #home-hero {
+    background-image: url(../images/hani-hero-mobile.jpg);}
+
+  .topnav {
+    box-shadow: none;
+  }
+
+  #home-hero {
+    box-shadow: none;
+  }
+
+  #home-supply-chain-image {
+    box-shadow: none;
+  }
+
+  .cta-right {
+    text-align: left;
+    max-width: 100%;
+    font-size: 18px;
+    padding-top: 8em;
+    padding-right: 0;
+  }
+
+  .cta-right h1, h2 {
+    line-height: 1.2em;
+  }
+
+  .h-cta-left {
+    text-align: left;
+    max-width: 100%;
+    font-size: 18px;
+    padding-top: 8em;
+    padding-left: 0;
+  }
+
+  .h-cta-left h1, h2 {
+    line-height: 1.2em;
+  }
+
+  .cta-left {
+    text-align: left;
+    max-width: 100%;
+    font-size: 18px;
+    padding-top: 55%;
+    padding-left: 0;
+  }
+
+  .h-cta-left p {
+    font-size: 22px;
+  }
+
+  .cta-right p {
+    font-size: 22px;
+  }
+
+  .shop-btn {
+    font-size: 18px;
+  }
+
+  .supply-two-column {
+    width: 90%;
+    margin: auto;
+  }
+  .supply-chain-left {
+    width: 100%;
+    border: none;
+    padding: 0;
+    float: none;
+    margin: 1em auto;
+  }
+
+  .supply-chain-right {
+    width: 100%;
+    padding-right: 0;
+    padding-left: .25em;
+    float: none;
+    margin: 1em 0em;
+    border-left: 2px solid #e46a25;
+  }
+
+  .quote-text {
+    width: 100%;
+  }
+
+  .quote-speaker {
+    text-align: center;
+  }
+
+  #home-product {
+    text-align: left;
+    width: 100%;
+    background-image: none;
+    margin-bottom: 2rem;
+  }
+
+  .home-product-content {
+    position: initial;
+    text-align: left;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0%;
+    font-size: 18;
+    max-width: 100%;
+  }
+  .h-cta h2{
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  .home-product-content p{
+    margin-top: .5em;
+    padding-left: .5em;
+    color: #a49e8f
+  }
+
+  .background-design {
+    display: none;
+  }
+
+  .home-product-image {
+    position: initial;
+    margin: auto;
+    max-width: 100%;
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+
+  .home-product-photo {
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  #home-sustainable {
+    text-align: left;
+    width: 100%;
+    background-image: none;
+    margin-bottom: 2rem;
+    margin-top: 0;
+  }
+
+  .home-sustainable-content {
+    position: initial;
+    text-align: left;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0%;
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .h-cta h2{
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  .home-sustainable-content p{
+    margin-top: .5em;
+    padding-left: .5em;
+    color: #a49e8f
+  }
+
+  .background-design {
+    display: none;
+  }
+
+  .home-sustainable-image {
+    position: initial;
+    margin: auto;
+    max-width: 100%;
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+
+  .home-sustainable-photo {
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .imported-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+
+  .imported-photo-container {
+    max-width: 95%;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .imported-text-container {
+    max-width: 95%;
+    margin: auto;
+    padding-top: 0;
+  }
+
+  .imported-paragraph {
+    max-width: 90% !important;
+  }
+
+  .process {
+    text-align: center;
+  }
+
+  .solution p {
+    max-width: 95%;
+  }
+
+  .process-step {
+    max-width: 95%;
+    margin-bottom: 2rem;
+  }
+
+  .process-step p {
+    margin: 0;
+    text-align: left;
+  }
+
+  .process-heading {
+    text-align: left;
+  }
+
+  .process-step img {
+    margin: auto;
+  }
+
+  .contact-content {
+    width: 85%;
+    left: 10%;
+  }
+}
